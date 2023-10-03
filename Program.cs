@@ -61,7 +61,7 @@ namespace Password_Generator
                 passWord = "";
                 for (int i = 0; i < passwordLength; i++)
                 {
-                    int index = rand.Next(0, alphabetLength); // Pas de l-1 pcq dernière valeur exclue ave .Next
+                    int index = rand.Next(0, alphabetLength); // Pas de l-1 pcq dernière valeur exclue avec .Next
                     passWord += alphabet[index];
                     
                 }
