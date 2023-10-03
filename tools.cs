@@ -49,8 +49,7 @@
                     Console.WriteLine();
                     
                     return AskNumberBetween(question, min, max, personnalisedErrorMsg); 
-                    // Demander à Max ce que fait le return ici, le return retourne la fonction vers où ? 
-                    // Pourquoi fait-on ça ?
+                   
                     
                 }
                 
